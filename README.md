@@ -36,7 +36,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
   }
  
 6. Run the application:
-  - flask run
+ -`flask run`
   
 7. Access the application:
    - http://127.0.0.1:5000/hello
