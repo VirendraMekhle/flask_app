@@ -68,15 +68,19 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
             where id = 1;
 
  # Task 3:  Git WorkFlow
-        1. Clone the repository
-           - `git clone https://github.com/VirendraMekhle/flask_app.git`
+        1. Clone the repository:
+            `git clone https://github.com/VirendraMekhle/flask_app.git`
+            
         2.Create a new branch:
-            - `git checkout -b branch_name`
-        3.Make changes and commit
-            - `git add .`
-            - `git commit -m "Describe your changes"`
+             `git checkout -b branch_name`
+             
+        3.Make changes and commit:
+             `git add .`
+             `git commit -m "Describe your changes"`
+             
         4.Push changes to the remote repository:
-            - `git push origin branch_name`
+             `git push origin branch_name`
+             
         5.Create a Pull Request on GitHub:
            Go to the "Pull requests" tab on GitHub.
            Click "New pull request" and select your branch to merge into the main branch.
