@@ -60,12 +60,12 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
            ('Mohit Sahu', 'mohitsahu@gmail.com', 'Manager');
          
           Retrieve all users from the "users" table: 
-           - Select * From users;
+           Select * From users;
         
           Retrieve a specific user by their ID: 
-           - Select name , email , role  OR [Select *]
-             from users
-             where id = 1;
+            Select name , email , role  OR [Select *]
+            from users
+            where id = 1;
 
  # Task 3:  Git WorkFlow
         1. Clone the repository
