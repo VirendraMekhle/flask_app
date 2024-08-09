@@ -59,10 +59,10 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
            ('Gagan Sahu', 'gsahu@gmail.com', 'User'),
            ('Mohit Sahu', 'mohitsahu@gmail.com', 'Manager');
          
-        B. Retrieve all users from the "users" table: 
+          Retrieve all users from the "users" table: 
            - Select * From users;
         
-        C. Retrieve a specific user by their ID: 
+          Retrieve a specific user by their ID: 
            - Select name , email , role  OR [Select *]
              from users
              where id = 1;
