@@ -14,17 +14,17 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
  
 ### Installation
 1. Clone the repository:
-   - git clone https://github.com/VirendraMekhle/flask_app.git
+   - `git clone https://github.com/VirendraMekhle/flask_app.git`
    
 2. Navigate to the project directory:
-   - cd flask_app
+   - `cd flask_app`
    
 3. Create and activate a virtual environment (optional but recommended):
-    - python -m venv venv 
-    - venv\Scripts\activate
+    - `python -m venv venv`
+    - `venv\Scripts\activate`
 
 4. Install dependencies:
-   - pip install -r requirements.txt
+   - `pip install -r requirements.txt`
 
 5.Set up the database:
    # Database configuration
@@ -69,14 +69,14 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
 
  # Task 3:  Git WorkFlow
         1. Clone the repository
-           - git clone https://github.com/VirendraMekhle/flask_app.git
+           - `git clone https://github.com/VirendraMekhle/flask_app.git`
         2.Create a new branch:
-            - git checkout -b branch_name
+            - `git checkout -b branch_name`
         3.Make changes and commit
-            - git add .
-            - git commit -m "Describe your changes"
+            - `git add .`
+            - `git commit -m "Describe your changes"`
         4.Push changes to the remote repository:
-            - git push origin branch_name
+            - `git push origin branch_name`
         5.Create a Pull Request on GitHub:
            Go to the "Pull requests" tab on GitHub.
            Click "New pull request" and select your branch to merge into the main branch.
