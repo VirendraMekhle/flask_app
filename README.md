@@ -40,7 +40,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
   
 7.Access the application:
    http://127.0.0.1:5000/hello
-   http://127.0.0.1:5000/users
+   http://127.0.0.1:5000/users 
    http://127.0.0.1:5000/new_user
    http://127.0.0.1:5000/users/1
 
@@ -54,16 +54,18 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
           email VARCHAR(255),
           role VARCHAR(255));
           
-   3.   A. INSERT INTO users (name, email, role) VALUES ('Virendra Kumar', 'vmekhle@gmail.com', 'Admin');
-           INSERT INTO users (name, email, role) VALUES ('Mohit Sahu', 'msahu@gmaile.com', 'User');
+   3.   A. INSERT INTO users (NAME, email, ROLE) VALUES
+           ('Virendra Kumar', 'vmekhle@gmail.com', 'Admin'),
+           ('Gagan Sahu', 'gsahu@gmail.com', 'User'),
+           ('Mohit Sahu', 'mohitsahu@gmail.com', 'Manager');
          
-        B. Retrieve all users from the "users" table.
-           Select * From users;
+        B. Retrieve all users from the "users" table: 
+           - Select * From users;
         
-        C. Retrieve a specific user by their ID.
-           Select name , email , role  OR [Select *]
-           from users
-           where id = 1;
+        C. Retrieve a specific user by their ID: 
+           - Select name , email , role  OR [Select *]
+             from users
+             where id = 1;
 
 ##Task 3: Git Workflow
         1. Clone the repository
