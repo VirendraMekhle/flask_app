@@ -11,7 +11,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
 - Python 3.x installed on your machine
 - Flask installed (`pip install flask`)
 - MySQL installed and running
-- 
+ 
 ### Installation
 1. Clone the repository:
    git clone https://github.com/VirendraMekhle/flask_app.git
