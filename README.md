@@ -1,6 +1,6 @@
 # Task 1:  Flask Application
 This is a Flask web application that demonstrates basic CRUD operations with a MySQL database. It includes functionalities to list users, add new users, and view user details.
-#Features
+## Features
  - View a list of users
  - Add new users
  - View details of a specific user
@@ -44,7 +44,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
    http://127.0.0.1:5000/new_user
    http://127.0.0.1:5000/users/1
 
-##Task 2:  DataBase Scheme
+# Task 2:   DataBase Scheme
    1.     CREATE DATABASE users;
           USE users;
 
@@ -67,7 +67,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
              from users
              where id = 1;
 
-##Task 3: Git Workflow
+ # Task 3:   Git WorkFlow
         1. Clone the repository
            git clone https://github.com/VirendraMekhle/flask_app.git
         2.Create a new branch:
