@@ -7,7 +7,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
  - Simple user interface using HTML templates
 
 ## Setup Instructions
-# Prerequisites
+- Prerequisites
 - Python 3.x installed on your machine
 - Flask installed (`pip install flask`)
 - MySQL installed and running
@@ -54,7 +54,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
           email VARCHAR(255),
           role VARCHAR(255));
           
-   3.   A. - INSERT INTO users (NAME, email, ROLE) VALUES
+   3.    - INSERT INTO users (NAME, email, ROLE) VALUES
            ('Virendra Kumar', 'vmekhle@gmail.com', 'Admin'),
            ('Gagan Sahu', 'gsahu@gmail.com', 'User'),
            ('Mohit Sahu', 'mohitsahu@gmail.com', 'Manager');
