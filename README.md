@@ -13,7 +13,7 @@ This is a Flask web application that demonstrates basic CRUD operations with a M
 - MySQL installed and running
  
 ### Installation
-1. Clone the repository:
+1.Clone the repository:
    git clone https://github.com/VirendraMekhle/flask_app.git
    
 2.Navigate to the project directory:
