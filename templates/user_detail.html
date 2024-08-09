@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Detail</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-custom {
+            max-width: 400px; 
+            margin: auto; 
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #fff; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">User Detail</h1>
+        <div class="card card-custom mt-3">
+            <div class="card-body">
+                <p><strong>ID:</strong> {{ user[0] }}</p>
+                <p><strong>Name:</strong> {{ user[1] }}</p>
+                <p><strong>Email:</strong> {{ user[2] }}</p>
+                <p><strong>Role:</strong> {{ user[3] }}</p>
+                <a href="{{ url_for('list_users') }}" class="btn btn-primary">Back to Users List</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
